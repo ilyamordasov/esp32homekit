@@ -1,0 +1,15 @@
+{
+  "name": "alice",
+  "version": "1.0.0",
+  "description": "this is the description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "microcule index.js"
+  },
+  "author": "ilyamordasov",
+  "dependencies": {
+    "microcule": "*"
+  },
+  "license": "MIT"
+}

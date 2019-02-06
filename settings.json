@@ -1,0 +1,13 @@
+{
+  "mqtt": {
+    "host": "m24.cloudmqtt.com",
+    "port": 28489,
+    "username": "nyfmvmka",
+    "password": "3ibNbFURtUOR",
+    "protocol": "mqtts",
+    "secureProtocol": "TLSv1_2_method"
+  },
+  "dialogflow": {
+    "token": "6a68be85f8b94790a3c26fde053d9b91"
+  }
+}
