@@ -1,7 +1,3 @@
-// A simple hello world microservice
-// Click "Deploy Service" to deploy this code
-// Service will respond to HTTP requests with a string
-
 module['exports'] = function alice (hook) {
 	res.setHeader("Content-Type", "application/json; charset=utf-8");
   var mqtt = require('mqtt');
