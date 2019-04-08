@@ -31,7 +31,7 @@ module['exports'] = function alice (hook) {
 		{
       		if (!err)
             {
-              const response = {'fulfillmentText': hook.params.queryResult.fulfillmentText,'fulfillmentMessages': [{'richResponse': {'items':[{'simpleResponses': [{'textToSpeech': message,'displayText': message}]}], "suggestions": [{"title": "Suggestion Chips"},{"title": "suggestion 1"},{"title": "suggestion 2"}]}}]};
+              const response = {'fulfillmentText': hook.params.queryResult.fulfillmentText,'fulfillmentMessages': [{'richResponse': {'items':[{'simpleResponses': [{'textToSpeech': message,'displayText': message}]}], "suggestions": [{"title": "Включи чайник"},{"title": "Выключи чайник"}]}}]};
               hook.res.json(response);
               client.end();
       		}
