@@ -1,0 +1,94 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+div#layout {
+  text-align: center;
+}
+
+div#container {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  background-color: #fff;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.bar {
+  fill: #F2F1F6;
+  /*border-radius: 10px;*/
+}
+
+.orangeBar {
+  fill: #FF7D5B;
+}
+
+.greyBar {
+  fill: #F2F1F6;
+}
+
+text {
+  font-size: 12px;
+  font-weight: 400;
+  fill: #C0C3C8;
+}
+
+path {
+  stroke: gray;
+  opacity: 0;
+}
+
+line {
+  stroke: gray;
+  opacity: 0;
+}
+
+line#limit {
+  stroke: #FED966;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.grid .tick line {
+  stroke: #9FAAAE;
+  stroke-opacity: 0.3;
+}
+
+/* .tick:nth-child(3n) text {
+    visibility: hidden;
+} */
+
+text.divergence {
+  font-size: 14px;
+  fill: #2F4A6D;
+}
+
+text.value {
+  font-size: 14px;
+  font-weight: 800;
+  fill: #292939;
+}
+
+text.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+text.label {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+text.source {
+  font-size: 10px;
+}
